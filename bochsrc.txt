@@ -1,0 +1,10 @@
+megs: 32
+display_library: sdl
+romimage: file=/usr/share/bochs/BIOS-bochs-latest
+vgaromimage: file=/usr/share/bochs/VGABIOS-lgpl-latest
+floppya: 2_88=os-image.bin, status=inserted
+boot: floppy
+log: bochslog.txt
+clock: sync=realtime, time0=local
+cpu: count=1, ips=1000000
+magic_break: enabled=1
